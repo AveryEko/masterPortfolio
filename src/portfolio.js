@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -352,144 +352,144 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Fuhua Secondary School",
+      subtitle: "Government Secondary School",
+      logo_path: "fhss.png",
+      alt_name: "FHSS",
+      duration: "2014 - 2018",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Gained a comprehensive education through core subjects like Mathematics, Physics, Chemistry, English, and the Humanities, which developed analytical thinking, problem-solving skills and effective communication",
+        "⚡ Explored the connections between sciences and humanities for example, using geographic data analysis in Social Studies and applying critical thinking from English across subjects. This enriched my understanding of global issues and scientific principles from multiple angles.",
+        "⚡ Participated actively in group projects, class discussions, and lab work which honed my teamwork skills and built confidence. Engaging with different subjects taught me to approach challenges from various perspectives.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://fuhuasec.moe.edu.sg/",
     },
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
-    },
+    // {
+    //   title: "Indiana University Bloomington",
+    //   subtitle: "M.S. in Computer Science",
+    //   logo_path: "iu_logo.png",
+    //   alt_name: "Indiana University Bloomington",
+    //   duration: "2021 - 2023",
+    //   descriptions: [
+    //     "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+    //     "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
+    //     "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+    //   ],
+    //   website_link: "https://www.indiana.edu/",
+    // },
   ],
 };
 
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "PFP Director Roll",
+      subtitle: "- Singapore Polytechnic",
+      logo_path: "SP_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+        "https://drive.google.com/file/d/1iph-z4MoUHrAb3f5LW8uQMKZprSzxRsE/view?usp=sharing",
+      alt_name: "pfp-director-roll",
+      color_code: "#FFFFFF",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "PFP Completion Certificate",
+      subtitle: "- Singapore Polytechnic",
+      logo_path: "SP_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://drive.google.com/file/d/1Hq-ikh8a-hn0kZ49oEsZeHrviu9ncYUt/view?usp=sharing",
+      alt_name: "pfp-completion",
+      color_code: "#FFFFFF",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "O-level's Certificate",
+      subtitle: "- MOE",
+      logo_path: "moe-logo.jpg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://drive.google.com/file/d/1XYlOQbdnpUg1v_f4NSrwU69HgkHYtNQW/view?usp=sharing",
+      alt_name: "O-levels",
+      color_code: "#FFFFFF",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "N-level's Certificate",
+      subtitle: "- MOE",
+      logo_path: "moe-logo.jpg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://drive.google.com/file/d/1YLVS_dzvItWDyqPSh9p-Q3w2pi_xHECi/view?usp=sharing",
+      alt_name: "n-levels",
+      color_code: "#FFFFFF",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "Volunteer Appreciation",
+      subtitle: "- New Life Community Services",
+      logo_path: "newlife.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
+        "https://drive.google.com/file/d/1EyBkKNc_n3_Q1_6VrKPIrlwJbCfcoD17/view?usp=sharing",
+      alt_name: "Volunteer-Appreciation",
+      color_code: "#d12121ff",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      title: "Shooting CCA (Secondary School)",
+      subtitle: "- Fuhua Secondary School",
+      logo_path: "fhss1.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://drive.google.com/file/d/1LDBbTw5vCR2FudcLyc65T2FKm1nRZe79/view?usp=sharing",
+      alt_name: "Shooting CCA",
+      color_code: "#630101ff",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Edusave Award",
+      subtitle: "- Fuhua Secondary School",
+      logo_path: "fhss1.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://drive.google.com/file/d/116PSYRBD_USwoZa5pV-5v7e_YYDQRUbJ/view?usp=sharing",
+      alt_name: "Edusave Award",
+      color_code: "#630101ff",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Excellence Award",
+      subtitle: "- Fuhua Secondary School",
+      logo_path: "fhss1.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://drive.google.com/file/d/1w-b2WToXRtER07yYdQnu--RiFn1fQTVU/view?usp=sharing",
+      alt_name: "Excellence Award",
+      color_code: "#630101ff",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
+      title: "SAC Good Progress Award",
+      subtitle: "- Fuhua Secondary School",
+      logo_path: "fhss1.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
+        "https://drive.google.com/file/d/1LY8TcrTpktm-k-4GSs2NQHg-ihSdtPAB/view?usp=sharing",
+      alt_name: "SAC Good Progress Award",
+      color_code: "#630101ff",
     },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    // {
+    //   title: "Kuberenetes on GCP",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Cryptography",
+    //   subtitle: "- Saurabh Mukhopadhyay",
+    //   logo_path: "nptel_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+    //   alt_name: "NPTEL",
+    //   color_code: "#FFBB0099",
+    // },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
   ],
 };
 
